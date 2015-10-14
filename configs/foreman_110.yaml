@@ -21,3 +21,11 @@
     :branch: 1.10-stable
     :repo: https://github.com/theforeman/foreman-installer.git
 :ignores:
+  # Escaping bug (https://github.com/ehelms/tool_belt/pull/9)
+  - 9603
+  # Hammer commit is being picked up, the Foreman commit is in
+  - 10731
+  # Installer module changes, all in
+  - 11681
+  - 11655
+  - 11781
