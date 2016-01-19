@@ -3,6 +3,10 @@
 :releases:
   :1.10.0:
     :redmine_release_id: 63
+  :1.10.1:
+    :redmine_release_id: 104
+  :1.10.2:
+    :redmine_release_id: 123
 :repos:
   :foreman:
     :main: true
