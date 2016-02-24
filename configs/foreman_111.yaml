@@ -1,0 +1,39 @@
+---
+:project: foreman
+:releases:
+  :1.11.0:
+    :redmine_release_id: 71
+  :1.11.1:
+    :redmine_release_id: 141
+:repos:
+  :foreman:
+    :main: true
+    :branch: 1.11-stable
+    :repo: https://github.com/theforeman/foreman.git
+  :smart-proxy:
+    :main: true
+    :branch: 1.11-stable
+    :repo: https://github.com/theforeman/smart-proxy.git
+  :foreman-selinux:
+    :main: true
+    :branch: 1.11-stable
+    :repo: https://github.com/theforeman/foreman-selinux.git
+  :foreman-installer:
+    :main: true
+    :branch: 1.11-stable
+    :repo: https://github.com/theforeman/foreman-installer.git
+  :foreman-packaging-deb:
+    :main: true
+    :branch: deb/1.11
+    :repo: https://github.com/theforeman/foreman-packaging.git
+  :foreman-packaging-rpm:
+    :main: true
+    :branch: rpm/1.11
+    :repo: https://github.com/theforeman/foreman-packaging.git
+:ignores:
+  - 13405  # handled via installer pinning commit
+  # installer Puppet module changes
+  - 8389
+  - 12745
+  - 12988
+  - 11652
