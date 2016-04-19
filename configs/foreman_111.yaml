@@ -39,6 +39,7 @@
   - 12209  # smart proxy plugin commit
   - 13960  # due in Hammer 0.6
   - 13948  # RPM retagged
+  - 13966  # Hammer 0.6.2
   # installer Puppet module changes
   - 8389
   - 12745
