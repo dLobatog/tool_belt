@@ -52,6 +52,8 @@
   # Installer create upstream openscap repo file by default
   14520:
     - 361136edfec01f2cba9b1d00c927133e952c7ed9
+    # not included; for 1.13
+    - 416698ca98126b8cb9c50a36326f69cb666a7cb7
   # Openscap repository should be added by smart_proxy_openscap plugin rather than foreman_openscap
   14522:
     - 34cf002e2ad5395f059f8cabd0533ca1a6288579
