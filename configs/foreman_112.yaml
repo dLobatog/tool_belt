@@ -44,6 +44,9 @@
     :branch: 1.12-stable
     :repo: https://github.com/theforeman/community-templates.git
 :ignores:
+  # foreman_openscap commit on wrong Foreman ticket
+  14253:
+    - dc22dab37427095187ecaf01c5246b90cb4be841
   ### Foreman installer module changes (not in the above repo list, as we don't maintain stable branches)
   # katello-installer --help references a flag using "RedHat" in the context
   14197:
@@ -73,3 +76,6 @@
   # /etc/puppetlabs/puppetserver/bootstrap.cfg is missing in Puppet Server 2.5.0
   15132:
     - 68c2d50eac54de1e21e66a96794eca1d1d51f8af
+  # auth_kerb.conf error when using external authentication and foreman-installer
+  15642:
+    - 837849846c43ca4dcb44f8c61e039c543c576968

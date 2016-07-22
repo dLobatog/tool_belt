@@ -10,6 +10,8 @@
     :redmine_release_id: 155
   :1.11.3:
     :redmine_release_id: 159
+  :1.11.4:
+    :redmine_release_id: 169
 :repos:
   :foreman:
     :main: true
