@@ -14,6 +14,10 @@
     :redmine_release_id: 136
   :1.12.1:
     :redmine_release_id: 161
+  :1.12.2:
+    :redmine_release_id: 175
+  :1.12.3:
+    :redmine_release_id: 181
 :repos:
   :foreman:
     :main: true
@@ -47,6 +51,9 @@
   # foreman_openscap commit on wrong Foreman ticket
   14253:
     - dc22dab37427095187ecaf01c5246b90cb4be841
+  # Commit message contains slash/quotes, probably failing to match
+  13813:
+    - 0069c98dcb50a8960f92397921cfb8a98dc8401e
   ### Foreman installer module changes (not in the above repo list, as we don't maintain stable branches)
   # katello-installer --help references a flag using "RedHat" in the context
   14197:
