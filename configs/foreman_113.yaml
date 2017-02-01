@@ -16,6 +16,8 @@
     :redmine_release_id: 203
   :1.13.3:
     :redmine_release_id: 207
+  :1.13.4:
+    :redmine_release_id: 213
 :repos:
   :foreman:
     :main: true

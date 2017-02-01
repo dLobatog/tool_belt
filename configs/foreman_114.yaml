@@ -5,11 +5,15 @@
     :redmine_release_id: 203
   :1.13.3:
     :redmine_release_id: 207
+  :1.13.4:
+    :redmine_release_id: 213
 :releases:
   :1.14.0:
     :redmine_release_id: 189
   :1.14.1:
     :redmine_release_id: 210
+  :1.14.2:
+    :redmine_release_id: 221
 :repos:
   :foreman:
     :main: true
@@ -44,6 +48,16 @@
     # All help buttons are broken, commits from other plugin projects
     - 430407ae32a2246ea6a743165dfe41c157be2f0d
     - d536005604e5cf3171e8374b1fd3c1d09cdb3863
+  17781:
+    # "us-east-2" (Ohio region) not in foreman-ec2 compute resource
+    # rubygem-fog-aws build retagged
+    - 669a1cc307c960040e271327723262b800e0ac5c
+  17979:
+    # nokogiri 1.7 was released which requires ruby >= 2.1, alternative fix used on stable branch
+    - 7c7a2c1ffe951facf7610ace7003432b7b624ac5
+  18123:
+    # Package conflict rubygem-multipart-post with EPEL7, rubygem-faraday retagged
+    - 045a244ee91c61c2e60be9f645828a95b88f23b5
   # Installer module changes
   14920:
     # Change dhcpd.conf to support EFI loaders
@@ -64,3 +78,7 @@
   16942:
     # next-server in dhcp.conf should be configurable via foreman-installer
     - cad1c72d4f9c6cecf852b967c9ebff1cc9a0b17e
+  17634:
+    # Puppet4 vardir and Upgrading from Puppet3 (theforeman/puppet 7.0.1)
+    - 7a9226d3f5e2596cdb7a254043e9a649e4e52cdc
+
